@@ -33,4 +33,6 @@
  */
 @interface QRCodeReaderView : UIView
 
+- (void)startScanning;
+- (void)stopScanning;
 @end
