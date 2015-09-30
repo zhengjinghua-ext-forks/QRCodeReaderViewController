@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source                = { :git => 'https://github.com/zhengjinghua-ext-forks/QRCodeReaderViewController.git',
                               :tag => s.version.to_s }
   s.requires_arc          = true
-  s.source_files          = ['QRCodeReaderViewController/*.{h,m}']
+  s.source_files  		  = "QRCodeReaderViewController", "QRCodeReaderViewController/**/*.{h,m}"
   s.resources 			  = "QRCodeReaderViewController/Resources/*.png"
   s.framework             = 'AVFoundation'
   s.ios.deployment_target = '7.0'
