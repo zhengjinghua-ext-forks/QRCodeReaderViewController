@@ -1,7 +1,7 @@
 ## Thanks
 Modify from [https://github.com/yannickl/QRCodeReaderViewController](https://github.com/yannickl/QRCodeReaderViewController)
 ## screenshot
-![screenshot](http://7xnfdc.com1.z0.glb.clouddn.com/qrcode_screenshot.gif)
+![screenshot](http://7xnfdc.com1.z0.glb.clouddn.com/qrcode.gif)
 
 ## Install
 
