@@ -25,9 +25,6 @@ into your Podfile file.
   NSArray *types = @[AVMetadataObjectTypeQRCode];
   _reader        = [QRCodeReaderViewController readerWithMetadataObjectTypes:types];
   
-  // Set the presentation style
-  _reader.modalPresentationStyle = UIModalPresentationFormSheet;
-  
   // Using delegate methods
   _reader.delegate = self;
   
